@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 30px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.alt {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
