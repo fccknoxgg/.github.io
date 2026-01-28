@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sticker Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🔥 Sticker Shop</h1>
+  <p>Cool stickers, shipped fast</p>
+</header>
+
+<section class="products">
+  <div class="card">
+    <img src="https://via.placeholder.com/300" alt="Sticker">
+    <h2>Cool Sticker</h2>
+    <p>$5.00</p>
+
+    <!-- PayPal -->
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="YOUR_PAYPAL_EMAIL">
+      <input type="hidden" name="item_name" value="Cool Sticker">
+      <input type="hidden" name="amount" value="5.00">
+      <input type="hidden" name="currency_code" value="USD">
+      <button type="submit">Buy with PayPal</button>
+    </form>
+
+    <a class="alt" href="https://cash.app/$YOURCASHTAG" target="_blank">Pay with Cash App</a>
+    <a class="alt" href="https://venmo.com/YOURVENMO" target="_blank">Pay with Venmo</a>
+
+    <small>After payment, include your address + sticker name</small>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Sticker Shop</p>
+</footer>
+
+</body>
+</html>
